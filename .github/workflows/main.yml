@@ -9,7 +9,8 @@ jobs:
         id: hello
         uses: SatyamKumar3/action-hello-world@v1
         with:
-          who-to-greet: 'Satyam'
+          who-to-greet: 'Satyam Kumar'
       # Use the output from the `hello` step
       - name: Get the output time
-        run: echo "The time was ${{ steps.hello.outputs.time }}"
+        # run: echo "The time was ${{ steps.hello.outputs.time }}"
+        run: echo "${{ steps.hello.outputs }}"
