@@ -1,5 +1,4 @@
 name: Hello world GitHub Action
-run-name: Hello World GitHub Action Run
 on: [push]
 
 jobs:
