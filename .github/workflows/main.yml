@@ -5,7 +5,6 @@ on: [push]
 jobs:
   hello_world_job:
     name: Hello World Job
-    description: A job to say hello
     runs-on: ubuntu-latest
     steps:
       - name: Hello world action step
