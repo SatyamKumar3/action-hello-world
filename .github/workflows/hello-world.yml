@@ -1,4 +1,5 @@
-name: Hello world GitHub Action
+name: Hello world
+run-name: Hello world - ${{ github.event.head_commit.message }}
 on: [push]
 
 jobs:

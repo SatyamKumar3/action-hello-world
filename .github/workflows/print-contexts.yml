@@ -1,8 +1,10 @@
 name: Print Contexts
+run-name: Print Contexts - ${{ github.event.head_commit.message }}
 on: push
 
 jobs:
   dump_contexts_to_log:
+    name: Dump Contexts to Log
     runs-on: ubuntu-latest
     steps:
       - name: Dump GitHub context
