@@ -8,7 +8,8 @@ jobs:
       - name: Hello world action step
         id: hello
         # uses: SatyamKumar3/action-hello-world@v1
-        uses: SatyamKumar3/action-hello-world@v2
+        # uses: SatyamKumar3/action-hello-world@v2
+        uses: SatyamKumar3/action-hello-world@main
         with:
           who-to-greet: 'Satyam Kumar'
       # Use the output from the `hello` step
